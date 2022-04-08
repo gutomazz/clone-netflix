@@ -44,7 +44,7 @@ header nav a:hover{
 
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/breakingbad.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/breakinbad.jpg');
     
     height: 400px;
     background-size:cover;
@@ -62,7 +62,7 @@ header nav a:hover{
 }
 
 .filme-principal .titulo{
-    margin-top: 15%;
+    margin-top: 5%;
     font-size: 40px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -74,7 +74,7 @@ header nav a:hover{
 
     padding: 15px 30px;
     margin-right: 15px;
-    font-size: 12px;
+    font-size: 16px;
 
     cursor: pointer;
     transition: .3s ease all;
@@ -87,4 +87,18 @@ header nav a:hover{
 
 .botao i{
     margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 40%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
